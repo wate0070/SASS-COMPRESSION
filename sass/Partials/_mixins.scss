@@ -1,0 +1,67 @@
+@mixin ENRU {
+
+  &[lang=en],
+  &[lang=ru] {
+    display: none;
+  }
+}
+
+@mixin DEAR {
+
+  &[lang=ar],
+  &[lang=de] {
+    display: none;
+  }
+}
+
+@mixin headerfont1 {
+  font-size: 1.999rem;
+  padding: 2rem 2rem 1rem 2rem;
+}
+
+@mixin footerfont1 {
+  font-size: 1.414rem;
+  padding: 0.5rem 2rem;
+}
+
+@mixin standardfont {
+  font-size: 1.999rem;
+
+}
+
+@mixin section2spacing{
+   width: 600px;
+      margin: 0 auto;
+}
+
+@mixin footerfont{
+   font-size: 1.414rem;
+}
+
+@mixin section1spacing{
+   width: 1400px;
+    margin: 0 auto;
+}
+
+@mixin contentpadding{
+  padding: 2rem 0;
+}
+
+@mixin nofloat{
+  float: none;
+}
+
+@mixin alignleft{
+  text-align: left;
+}
+@mixin leftfloat{
+  float: left;
+}
+
+@mixin bigwidth{
+  width: 100%;
+}
+
+@mixin block{
+  display:block;
+}
